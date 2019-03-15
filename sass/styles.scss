@@ -1,0 +1,202 @@
+//intialing CSS
+body{
+    background-color: #162C2C !important;
+    padding-bottom: 150px;
+}
+img{
+    width: 100%;
+}
+//navbar styles
+.navbar{
+    .nav-brand{
+        width: 100px;
+    }
+    .btn-account{
+        color: white;
+    }
+}
+#header{
+    background-image: url('../images/bg-header.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -55.58px;
+    min-height: 230px; 
+    .header{
+        padding-top: 80px;
+        background-color: #00543A66;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;     
+        padding-bottom: 50px;   
+    }
+    p{
+        font-size: 16pt;
+        color: white;
+        text-align: center;
+    }
+}
+.header-step{
+    margin-top: 20px;
+    h5{
+        color: white;
+    }
+}
+#form{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: -56px;
+    label{
+        width: 100%;
+    }
+    .form-box{
+        color: white;
+        background: #99BBB0;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px 20px;
+        input{
+            border-radius: 10px;
+        }
+        small{
+            color: white;
+        }
+        .btn-submit{    
+            width: 100%;
+            border-radius: 20px;
+            color: #00543A66;
+            background-color: #FFFE1D;
+            font-family: arial;
+            font-weight: bold;
+        }
+    }
+}
+#rekom{
+    margin-top: 15px;
+    .rekom{
+        padding-left: 25px;
+        padding-right: 25px;
+        .row{
+            .title{
+                color: white;
+            }
+        }
+    }
+    .owl-dots{
+        position: relative;
+        bottom: 15px;
+    }
+    .rekomPhoto{
+        border-radius: 15px;
+        border: 1px solid white;
+        overflow: hidden;
+        img{
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+footer{
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    .footer-menu{
+        padding-top: 10px;
+        ul{
+            list-style: none;
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .watermark{
+        position: relative;
+        opacity: 0.4;
+        img{            
+            position: absolute;
+            top: -115px;
+            left: 67px;
+        }
+    }
+    .copyright{
+        height: 28px;
+        background-color: black;
+        padding-top: 5px;
+        small{
+            color: white;
+            float: right;
+        }
+    }
+}
+.detailBox{
+    background-color: #99bbb0;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+.destinasi{
+    label{
+        font-weight: bold;
+        font-size: 14pt;
+        display: inline;
+    }
+}
+/*--result List--*/
+#list{
+    padding-top: 20px;
+    .list-destination{    
+        width: 100%;
+        background: #ddd;
+        border-radius: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding: 5px 15px;
+        .checkbox-list{
+            position: relative;
+            right: 10px;
+            padding-top: 5px;
+            img{    
+                position: absolute;
+                width: 40px;
+                top: 13px;
+                left: 9px;
+            }
+            input[type="checkbox"]{
+                position: relative;
+                width: 60px;
+                height: 60px;
+                -webkit-appearance: none;
+                background: white;
+                outline: none;
+                border-radius: 100%;
+                box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+                transition: .5s;
+            }
+            input[type="checkbox"]:checked{
+                content: '';
+                position: relative;
+                width: 60px;
+                height: 60px;
+                -webkit-appearance: none;
+                background: rgb(74, 200, 231);
+                outline: none;
+                border-radius: 100%;
+                box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+                transition: .5s;
+            }
+            input[type='checkbox']+img{
+                visibility: hidden;
+            }
+            input[type='checkbox']:checked+img{
+                visibility: visible;
+            }
+        }
+    }
+}
